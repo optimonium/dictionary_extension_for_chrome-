@@ -1,0 +1,11 @@
+<script>
+
+function searchdictionary(info)
+{
+ var searchstring = info.selectionText;
+ chrome.tabs.create({url: "https://www.dictionary.com/browse/+searchstring?s=t})
+}
+
+chrome.contextMenus.create({title: "Search Dictionary", contexts:["selection"], onclick: searchdictionary});
+
+</script>
