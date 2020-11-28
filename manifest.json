@@ -1,4 +1,10 @@
 {
+  ...,
+  "manifest_version": 2,
+  ...
+}
+
+{
    "background_page": "background.html",
    "description": "Add a context menu item to search for selected text at dictionary.",
    "icons": {
@@ -8,5 +14,6 @@
    "minimum_chrome_version": "6",
    "name": "Dictionary Right Click",
    "permissions": [ "contextMenus", "tabs" ],
+   "manifest_version": 2,
    "version": "1.0"
 }
