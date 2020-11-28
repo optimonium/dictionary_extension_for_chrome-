@@ -1,5 +1,5 @@
 {
-   "background"{page "background.html"}
+   "background"{page: "background.html"}
    "description": "Add a context menu item to search for selected text at dictionary.",
    "icons": {
       "16": "icon16.png",
