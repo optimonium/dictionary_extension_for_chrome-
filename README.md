@@ -1,0 +1,1 @@
+# dictionary_extension_for_chrome-
